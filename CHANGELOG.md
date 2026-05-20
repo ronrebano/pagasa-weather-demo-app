@@ -22,3 +22,18 @@ The format is based on Keep a Changelog and this project can use Semantic Versio
 
 ### Added
 Initial demo application with FastAPI backend, React frontend, PostgreSQL, Redis, Docker, automated tests, and CI workflow.
+
+## [1.0.2] - 2026-05-20
+
+### Changed
+- Fix Release changelogs.
+
+## [1.2.0] - 2026-05-20
+
+### Changed
+- Jablutooth device is connected successfully.
+
+## [1.1.0] - 2026-05-20
+
+### Changed
+- Updated Release and Deploy workflows for Github Actions.

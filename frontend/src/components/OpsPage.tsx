@@ -47,7 +47,7 @@ export default function OpsPage() {
         <Box className="mb-8">
           <Typography variant="h4" className="font-bold mb-2 flex items-center gap-2">
             <AssessmentIcon className="text-4xl" />
-            System Operations Dashboard
+            System Operations Dashboard-kantunan na
           </Typography>
           <Typography variant="body1" color="text.secondary">
             Monitor system health, services, and performance trends
