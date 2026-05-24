@@ -23,4 +23,4 @@ frontend-dev:
 ## build-prod:
 .PHONY: build-prod
 build-prod:
-	docker compose -f docker-compose.prod.yml build
+	docker compose -f docker-compose-build-prod.yml build
