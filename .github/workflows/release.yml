@@ -150,7 +150,7 @@ jobs:
     needs: [create-release]
     environment:
       name: staging
-      url: http://gmstdevops.com
+      url: 146.190.93.114
     steps:
       - name: Install sshpass
         run: |
