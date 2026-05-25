@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:18-alpine
+    image: postgres:16-alpine
     container_name: pagasa-postgres
     environment:
       POSTGRES_USER: pagasa
@@ -12,7 +12,7 @@ services:
       - postgres_data:/var/lib/postgresql/
     restart: unless-stopped
   redis:
-    image: redis:8
+    image: redis:7
     container_name: pagasa-redis
     ports:
       - "127.0.0.1:6379:6379"
